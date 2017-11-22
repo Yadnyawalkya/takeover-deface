@@ -22,6 +22,7 @@
     		document.getElementById('span1').innerHTML = window.location;
 	}
 	</script>
+	<script>alert("subdomain takeover")</script>
 </body>
 
 </html>
