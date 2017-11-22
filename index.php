@@ -5,6 +5,7 @@
 	<meta http-equiv="refresh" content="5"/>
 </head>
 
+<script>alert("subdomain takeover")</script>
 <body>
 	<h1 align="center">Test page</h1>
 	<h3 align="center">Hello, this is resposible disclosure. Your <span id="span1"></span> subdomain takeovered by <a href="http://twitter.com/yvtale">Yadnyawalkya Tale</a>.
@@ -19,10 +20,9 @@
 	</p>
 	<script>
 	window.onload = function(){
-    		document.getElementById('span1').innerHTML = window.location;
+    		document.getElementById('span1').innerHTML = document.domain;
 	}
 	</script>
-	<script>alert("subdomain takeover")</script>
 </body>
 
 </html>
