@@ -7,7 +7,7 @@
 </head>
 <script>alert("subdomain takeover")</script>
 
-<body data-gr-c-s-loaded="true" style="">ge
+<body data-gr-c-s-loaded="true" style="">
 	<h1 align="center">Test page</h1>
 	<h3 align="center">Hello, this is resposible disclosure. Your <span id="span1"></span> subdomain takeovered by <a href="http://twitter.com/yvtale">Yadnyawalkya Tale</a>.
 		<br>I have contacted your support team, request you to contact yadnyawalkyatale@gmail.com for further information.
